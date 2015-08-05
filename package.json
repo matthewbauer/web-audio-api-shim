@@ -53,5 +53,8 @@
     "prepublish": "rm -rf lib && npm run lint && npm run test && npm run build",
     "test": "karma start",
     "travis": "npm run lint && npm run test"
+  },
+  "jspm": {
+    "main": "src/index.js"
   }
 }
